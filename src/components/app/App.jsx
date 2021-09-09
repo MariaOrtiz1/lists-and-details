@@ -1,5 +1,9 @@
+/* eslint-disable max-len */
 import React from 'react';
+import AnimalCrossingContainer from '../../containers/AnimalCrossingContainer';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <body>
+    <AnimalCrossingContainer />;
+  </body>;
 }
