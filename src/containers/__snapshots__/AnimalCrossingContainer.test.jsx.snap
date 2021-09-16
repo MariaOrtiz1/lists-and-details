@@ -1,0 +1,659 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimalCrossingContainer renders a list of villagers to the page 1`] = `
+<ul
+  aria-label="villagers"
+  role="list"
+>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e460
+      </p>
+      <p>
+        Admiral
+      </p>
+      <img
+        alt="Admiral"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        bird
+      </p>
+      <p>
+        cranky
+      </p>
+      <p>
+        Only quitters give up.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e461
+      </p>
+      <p>
+        Agent S
+      </p>
+      <img
+        alt="Agent S"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        squirrel
+      </p>
+      <p>
+        peppy
+      </p>
+      <p>
+        You gotta put the pedal to the metal!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e462
+      </p>
+      <p>
+        Agnes
+      </p>
+      <img
+        alt="Agnes"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        pig
+      </p>
+      <p>
+        sisterly
+      </p>
+      <p>
+        You reap what you sow.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e463
+      </p>
+      <p>
+        Al
+      </p>
+      <img
+        alt="Al"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Al_NH.png/revision/latest?cb=20200802150354"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        gorilla
+      </p>
+      <p>
+        lazy
+      </p>
+      <p>
+        Life is a buffet--Always go back for seconds.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e464
+      </p>
+      <p>
+        Alfonso
+      </p>
+      <img
+        alt="Alfonso"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/Alfonso_NH.png/revision/latest?cb=20200817164717"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        alligator
+      </p>
+      <p>
+        lazy
+      </p>
+      <p>
+        Slow and steady wins the race.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e465
+      </p>
+      <p>
+        Alice
+      </p>
+      <img
+        alt="Alice"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/Alice_NH.png/revision/latest?cb=20200803181400"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        koala
+      </p>
+      <p>
+        normal
+      </p>
+      <p>
+        Treat others as you would like to be treated.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46c
+      </p>
+      <p>
+        Ankha
+      </p>
+      <img
+        alt="Ankha"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/Ankha_NH.png/revision/latest?cb=20200817172044"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        cat
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        All that glitters is not gold.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e466
+      </p>
+      <p>
+        Alli
+      </p>
+      <img
+        alt="Alli"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/Alli_NH.png/revision/latest?cb=20200802061731"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        alligator
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        Think before you act.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46b
+      </p>
+      <p>
+        Anicotti
+      </p>
+      <img
+        alt="Anicotti"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/Anicotti_NH.png/revision/latest?cb=20200802164003"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        mouse
+      </p>
+      <p>
+        peppy
+      </p>
+      <p>
+        The walls have ears!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46a
+      </p>
+      <p>
+        Angus
+      </p>
+      <img
+        alt="Angus"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        bull
+      </p>
+      <p>
+        cranky
+      </p>
+      <p>
+        Even strong men cry.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e467
+      </p>
+      <p>
+        Amelia
+      </p>
+      <img
+        alt="Amelia"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Amelia_NH.png/revision/latest?cb=20200817171545"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        eagle
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        Pampering yourself is as important as food, water, and shelter!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46d
+      </p>
+      <p>
+        Annalisa
+      </p>
+      <img
+        alt="Annalisa"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/Annalisa_NH.png/revision/latest?cb=20200802063308"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        anteater
+      </p>
+      <p>
+        normal
+      </p>
+      <p>
+        Home is where the heart is.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46f
+      </p>
+      <p>
+        Antonio
+      </p>
+      <img
+        alt="Antonio"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Antonio_NH.png/revision/latest?cb=20200802063352"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        anteater
+      </p>
+      <p>
+        jock
+      </p>
+      <p>
+        Always go for the burn!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e46e
+      </p>
+      <p>
+        Annalise
+      </p>
+      <img
+        alt="Annalise"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Annalise_NH.png/revision/latest?cb=20200802153943"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        horse
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        Let gossip in one ear and out the other.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e468
+      </p>
+      <p>
+        Anabelle
+      </p>
+      <img
+        alt="Anabelle"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/Anabelle_NH.png/revision/latest?cb=20200802063200"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        anteater
+      </p>
+      <p>
+        peppy
+      </p>
+      <p>
+        Dance like no one's watching!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e470
+      </p>
+      <p>
+        Apollo
+      </p>
+      <img
+        alt="Apollo"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/Apollo_NH.png/revision/latest?cb=20200719092927"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        eagle
+      </p>
+      <p>
+        cranky
+      </p>
+      <p>
+        What goes up must come down.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e469
+      </p>
+      <p>
+        Anchovy
+      </p>
+      <img
+        alt="Anchovy"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/Anchovy_NH.png/revision/latest?cb=20200802081231"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        bird
+      </p>
+      <p>
+        lazy
+      </p>
+      <p>
+        Why do today what you can put off until tomorrow?
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e471
+      </p>
+      <p>
+        Apple
+      </p>
+      <img
+        alt="Apple"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/Apple_NH.png/revision/latest?cb=20200802151508"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        hamster
+      </p>
+      <p>
+        peppy
+      </p>
+      <p>
+        One rotten apple spoils the barrel!
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e472
+      </p>
+      <p>
+        Astrid
+      </p>
+      <img
+        alt="Astrid"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/Astrid_NH.png/revision/latest?cb=20200802154954"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        kangaroo
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        An apple doesn't fall far from the tree.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e473
+      </p>
+      <p>
+        Audie
+      </p>
+      <img
+        alt="Audie"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/Audie_NH.png/revision/latest?cb=20200829012735"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        wolf
+      </p>
+      <p>
+        peppy
+      </p>
+      <p>
+        Be the kind of person your future self won't regret having been
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e474
+      </p>
+      <p>
+        Aurora
+      </p>
+      <img
+        alt="Aurora"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/5/59/Aurora_NH.png/revision/latest?cb=20200202215217"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        penguin
+      </p>
+      <p>
+        normal
+      </p>
+      <p>
+        Always keep your cool.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e475
+      </p>
+      <p>
+        Ava
+      </p>
+      <img
+        alt="Ava"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        chicken
+      </p>
+      <p>
+        normal
+      </p>
+      <p>
+        Early to bed, early to rise.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e476
+      </p>
+      <p>
+        Avery
+      </p>
+      <img
+        alt="Avery"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Avery_NH.png/revision/latest?cb=20200608222354"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        eagle
+      </p>
+      <p>
+        cranky
+      </p>
+      <p>
+        What goes around comes around.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e478
+      </p>
+      <p>
+        Baabara
+      </p>
+      <img
+        alt="Baabara"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Baabara_NH.png/revision/latest?cb=20200802165552"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        sheep
+      </p>
+      <p>
+        snooty
+      </p>
+      <p>
+        Don't just follow the flock.
+      </p>
+    </button>
+  </li>
+  <li>
+    <button
+      style="display: flex; flex-direction: column; align-items: center; background-color: rgb(162, 124, 191); border-radius: 30px;"
+    >
+      <p>
+        5f5fb4bbbfd05c2aed82e47b
+      </p>
+      <p>
+        Barold
+      </p>
+      <img
+        alt="Barold"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/9/9d/Barold_NH.png/revision/latest?cb=20200802141140"
+        style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+      />
+      <p>
+        cub
+      </p>
+      <p>
+        lazy
+      </p>
+      <p>
+        Please DO feed the bears!
+      </p>
+    </button>
+  </li>
+</ul>
+`;
