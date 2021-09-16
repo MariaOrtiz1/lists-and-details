@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { findVillagers } from '../services/animalCrossing';
 import VillagerList from '../components/villagers/VillagerList';
 
+
 export default class AnimalCrossingContainer extends Component {
     state = {
       loading: true,

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Villager from './Villager';
 
 const VillagerList = ({ villagers }) => (
-  <ul aria-label="villagers" style={{
+  <ul aria-label="villagers" role="list" style={{
     
   }}>
     {villagers.map((villager) => (
