@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimalCrossingDetails displays info about a single villager 1`] = `
+<div>
+  <div
+    arai-label="villager"
+    role="div"
+  >
+    <p>
+      5f5fb4bbbfd05c2aed82e46e
+    </p>
+    <p>
+      Annalise
+    </p>
+    <img
+      alt="Annalise"
+      src="https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Annalise_NH.png/revision/latest?cb=20200802153943"
+      style="height: 300px; width: 250px; background-color: rgb(237, 202, 219); border-radius: 30px; border: 3px dotted #a27cbf;"
+    />
+    <p>
+      horse
+    </p>
+    <p>
+      snooty
+    </p>
+    <p>
+      Let gossip in one ear and out the other.
+    </p>
+  </div>
+</div>
+`;

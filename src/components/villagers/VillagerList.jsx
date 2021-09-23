@@ -2,24 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Villager from './Villager';
 
-const VillagerList = ({ villagers }) => (
-  <ul aria-label="villagers" role="list" style={{
-    
-  }}>
-    {villagers.map((villager) => (
-      <li key={villager.id}>
-        <Villager
-          id={villager.id}
-          name={villager.name}
-          image={villager.image}
-          species={villager.species}
-          personality={villager.personality}
-          quote={villager.quote}
-        />
-      </li>
-    ))}
-  </ul>
-);
+const VillagerList = ({ villagers }) => {
+  return (
+    <ul aria-label="villagers" role="list">
+      {villagers.map((villager) => (
+        <li key={villager.id}>
+          <Villager
+            id={villager.id}
+            name={villager.name}
+            image={villager.image}
+            species={villager.species}
+            personality={villager.personality}
+            quote={villager.quote}
+          />
+        </li>
+      ))}
+    </ul>
+  );
+};
 
 VillagerList.propTypes = {
   villagers: PropTypes.arrayOf(
@@ -35,3 +35,5 @@ VillagerList.propTypes = {
 };
 
 export default VillagerList;
+
+
