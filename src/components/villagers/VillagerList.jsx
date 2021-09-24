@@ -1,8 +1,18 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Villager from './Villager';
+import { useVillagerListEvents } from '../../hooks/useEvents';
 
-const VillagerList = ({ villagers }) => {
+const VillagerList = () => {
+  const { villagers, loading } = useVillagerListEvents();
+  if(loading) 
+    return  <img 
+      src="https://i.giphy.com/media/XE7hLtlphwAK70mP3i/giphy.webp" 
+      alt="loading spinner of flying package with balloon" 
+      style={{
+        'display': 'flex',
+        'justifyContent': 'center',
+        'alignSelf': 'center',
+      }}/>; 
   return (
     <ul aria-label="villagers" role="list">
       {villagers.map((villager) => (
@@ -19,19 +29,6 @@ const VillagerList = ({ villagers }) => {
       ))}
     </ul>
   );
-};
-
-VillagerList.propTypes = {
-  villagers: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      species: PropTypes.string.isRequired,
-      personality: PropTypes.string.isRequired,
-      quote: PropTypes.string.isRequired,
-    })
-  ).isRequired,
 };
 
 export default VillagerList;
