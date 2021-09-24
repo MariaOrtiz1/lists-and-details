@@ -3,7 +3,7 @@
 exports[`AnimalCrossingDetails displays info about a single villager 1`] = `
 <div>
   <div
-    arai-label="villager"
+    aria-label="villager"
     role="div"
   >
     <p>

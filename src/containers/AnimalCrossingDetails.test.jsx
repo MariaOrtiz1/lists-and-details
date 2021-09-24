@@ -5,11 +5,11 @@ import { MemoryRouter } from 'react-router';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import AnimalCrossingDetails from './AnimalCrossingDetails';
-import DetailData from '../data/detailData.json';
+import detailData from '../data/detailData.json';
 
 const mockServer = setupServer(
   rest.get('https://ac-vill.herokuapp.com/villagers/:id', (req, res, ctx) => {
-    return res(ctx.json(DetailData));
+    return res(ctx.json(detailData));
   })
 );
 
