@@ -1,50 +1,34 @@
-import React, { Component } from 'react';
-import { findOneVillager } from '../services/animalCrossing';
+import React from 'react';
+import { useVillagerDetailEvents } from '../hooks/useEvents';
 
-export default class AnimalCrossingDetails extends Component {
-    state = {
-      loading: true,
-      villager: {},
-    };
+const AnimalCrossingDetails = () => {
+  const { loading, villager } = useVillagerDetailEvents();
 
-    componentDidMount() {
-      const id = location.pathname.split('/')[1];
-      findOneVillager(id).then((villager) => 
-        this.setState({ villager, loading: false })
-      );
-    }
+  if(loading) return <img 
+    src="https://i.giphy.com/media/XE7hLtlphwAK70mP3i/giphy.webp" 
+    alt="loading spinner of flying package with balloon" 
+    style={{
+      'display': 'flex',
+      'justifyContent': 'center',
+      'alignSelf': 'center',
+    }}/>;
 
-    render() {
-      const { loading, villager } = this.state;
-      const { id, name, image, species, personality, quote } = villager;
-      if(loading) {
-        return (
-          <img 
-            src="https://i.giphy.com/media/XE7hLtlphwAK70mP3i/giphy.webp" 
-            alt="loading spinner of flying package with balloon" 
-            style={{
-              'display': 'flex',
-              'justifyContent': 'center',
-              'alignSelf': 'center',
-            }}/>
-        );
-      }
+  return (
+    <div role="div" aria-label="villager">
+      <p>{villager.id}</p>
+      <p>{villager.name}</p>
+      <img src={villager.image} alt={villager.name} style={{
+        'height': '300px',
+        'width': '250px',
+        'backgroundColor': '#edcadb',
+        'borderRadius': '30px',
+        'border': '3px dotted #a27cbf',
+      }}/>
+      <p>{villager.species}</p>
+      <p>{villager.personality}</p>
+      <p>{villager.quote}</p>
+    </div>
+  );
+};
 
-      return (
-        <div>
-          <p>{id}</p>
-          <p>{name}</p>
-          <img src={image} alt={name} style={{
-            'height': '300px',
-            'width': '250px',
-            'backgroundColor': '#edcadb',
-            'borderRadius': '30px',
-            'border': '3px dotted #a27cbf',
-          }}/>
-          <p>{species}</p>
-          <p>{personality}</p>
-          <p>{quote}</p>
-        </div>
-      );
-    }
-}
+export default AnimalCrossingDetails;

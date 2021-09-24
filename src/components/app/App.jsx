@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
-import AnimalCrossingContainer from '../../containers/AnimalCrossingContainer';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import AnimalCrossingDetails from '../../containers/AnimalCrossingDetails';
+import AnimalCrossingContainer from '../../containers/AnimalCrossingContainer';
+import AnimalCrossingDetails from '../containers/AnimalCrossingDetails';
 
 export default function App() {
   return (
@@ -16,7 +16,6 @@ export default function App() {
         <Route path="/:id">
           <AnimalCrossingDetails />;
         </Route>
-
         <Route path="/">
           <AnimalCrossingContainer />;
         </Route>
